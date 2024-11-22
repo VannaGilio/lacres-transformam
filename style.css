@@ -10,13 +10,17 @@ ul, ol, li{
     list-style: none;
 }
 html, body{
- scroll-behavior: smooth;
- font-family: "Arial", sans-serif;
- color: white;
+    scroll-behavior: smooth;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #DFEADF;
 }
 
 header{
-    background-color: #d9d9d9;
+    background-color: #005900;
     position: fixed;
     width: 100vw;
 }
@@ -26,13 +30,14 @@ header nav ul{
     padding: 16px;
 }
 header nav a{
-    color: rgb(47, 68, 66);
+    color: rgb(255, 255, 255);
     padding: 8px;
     transition: background-color 1s;
 }
 header nav a:hover{ /* :hover quando passar o mouse em cima*/
-    background-color: rgb(6, 38, 49);
-    color: #d9d9d9;
+    background-color: #DFEADF;
+    color: #005900;
+    border-radius: 0.4rem;
 }
 
 .grupo{
@@ -41,57 +46,55 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     padding: 50px 20px;
 }
 
-#Senai-Jandira{
-    background-color: #8daba8;
+#senai-jandira{
+    background-color: #DFEADF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#Senai-Jandira img{
-    width: 95vw;
-    margin-top: 5vh;
+#senai-jandira img{
+    width: 70vw;
+    height: 60vh;
 }
-#Senai-Jandira h2{
-    font-size: 70px;
+#senai-jandira h2{
+    font-size: 2rem;
     text-align: center;
-    margin-top: 9vh;
-    color: white;
-}
-#Senai-Jandira p{
-    font-size: 30px;
-    color: white;
-    width: 900px;
+    padding: 2rem;
+    color: #005900;
 }
 
+#senai-jandira p{
+    color: #005900;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
 
-
-#Lacres-Que-Transformam{
-    background-color: #fb3a9b;
+#sobre-o-projeto{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#Lacres-Que-Transformam img{
-    width: 20vw;
-    margin-top: 17vh;
-}
 
-
-
-
-.grupo h2{
-    font-size: 75px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    margin-top: 1px;
-}
-.grupo p{
-    font-size: 30px;
-    width: 900px;
-
-}
-.grupo div{
+#sobre-o-projeto h2{
+    color: #005900;
+    font-size: 2rem;
+    padding: 0.5rem;
     text-align: center;
+}
+
+#sobre-o-projeto p{
+    color: #005900;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#como-funciona{
+    background-color: #DFEADF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
