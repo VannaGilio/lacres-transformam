@@ -98,3 +98,35 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     align-items: center;
     justify-content: center;
 }
+
+#como-funciona h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: #005900;
+}
+
+#como-funciona p{
+    color: #005900;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#como-funciona-div{
+    background-color: #DFEADF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    width: 100vh;
+    height: 20vh;
+}
+
+#como-funciona-div p{
+    color: #005900;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #F5FEF5;
+    
+    
+}
