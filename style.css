@@ -19,6 +19,13 @@ body{
     background-color: #DFEADF;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     background-color: #005900;
     position: fixed;
@@ -89,6 +96,7 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     padding: 0.5rem;
     font-size: 1.2rem;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 #como-funciona{
@@ -97,12 +105,13 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 #como-funciona h2{
     font-size: 2rem;
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
     color: #005900;
 }
 
@@ -120,13 +129,23 @@ header nav a:hover{ /* :hover quando passar o mouse em cima*/
     border-radius: 2rem;
     width: 100vh;
     height: 20vh;
+    padding: 0;
 }
 
 #como-funciona-div p{
     color: #005900;
-    padding: 0.5rem;
+    padding: 1.2rem;
     font-size: 1.2rem;
     background-color: #F5FEF5;
-    
-    
+    border-radius: 1.5rem;
+    display: flex;
+}
+
+footer{
+    background-color: #005900;
+    padding: 0.7rem;
+    height: 6vh;
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
 }
